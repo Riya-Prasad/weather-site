@@ -36,10 +36,10 @@ header input{
 	outline: none;
 	background-color: rgba(255, 255, 255, 0.3); 
 	border-radius: 16px 0px;
-	border-bottom: 2px solid rgba(0, 0, 0, 0.6);
-	color: #313131;
-	font-size: 18px;
-	font-weight: 300;
+	border-bottom: 2px solid #14274e;
+	color: #394867;
+	font-size: 20px;
+	font-weight: 500;
 	transition: 0.2s ease-out;
 }
 
