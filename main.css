@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap');
+
 *{
 	margin: 0;
 	padding: 0;
@@ -5,7 +7,7 @@
 }
 
 body{
-	font-family: 'montserrat', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 	color: #FFF;
 	background-image: url('weather.jpg');
 	background-size: cover;
@@ -36,8 +38,10 @@ header input{
 	outline: none;
 	background-color: rgba(255, 255, 255, 0.3); 
 	border-radius: 16px 0px;
-	border-bottom: 2px solid #14274e;
-	color: #f1f6f9;
+	/*border-bottom: 2px solid #14274e;*/
+	box-shadow: 0 0 13px #9df3c4;
+	color: #2a363b;
+	font-family: 'Titillium Web', sans-serif;
 	font-size: 20px;
 	font-weight: 500;
 	transition: 0.2s ease-out;
@@ -45,6 +49,8 @@ header input{
 
 header input:focus{
 	background-color: rgba(255, 255, 255, 0.6);
+	opacity: 0.5;
+
 }
 
 main{
